@@ -1,0 +1,181 @@
+body {
+	background: rgb(60,120,170);
+	color: white;
+}
+div.field {
+	background: rgba(0,0,0,0.25);
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	box-shadow: 0px 0px 10px black;
+}
+div.zwField {
+	background: rgba(0,0,0,0.2);
+	margin: 32px;
+	padding: 16px;
+}
+div.zwField h1 {
+	font-size: 26px;
+}
+div.zwField h2 {
+	font-size: 22px;
+}
+div.zwField a {
+	color: #55B;
+	text-decoration: none;
+	font-style: italic;
+}
+div.zwField a:hover {
+	color: #66C;
+	text-decoration: none;
+}
+div.zwField a:focus {
+	color: #66C;
+	text-decoration: none;
+	font-weight: bold;
+}
+div.fieldmain {
+	background: rgba(0,0,0,0.25);
+	padding: 10px;
+}
+div.field div.userbar {
+	margin-left: 64px;
+	margin-right: 64px;
+	word-spacing: 32px;
+	text-align: center;
+	margin-bottom: 16px;
+}
+div#sidebar a button {
+	margin: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 90%;
+	border: none;
+	background: rgba(0,0,0,0.25);
+}
+div#sidebar {
+	background: rgba(0,0,0,0.15);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+div.field a.user {
+	text-decoration: none;
+	color: #55d;
+	text-shadow: 2px 2px black;
+	font-weight: bold;
+}
+table.specialtable tr.this {
+	background: rgba(0,0,0,0.2);
+	padding: 8px;
+	font-weight: bold;
+	font-size: 20px;
+}
+table.specialtable td a {
+	color: grey;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+table.specialtable td a:hover {
+	font-weight: bold;
+}
+table.specialtable td:hover {
+	background: rgba(0,0,0,0.25);
+}
+.width100 {
+	width: 100%;
+}
+.height100 {
+	height: 100%;
+}
+.width90 {
+	width: 90%;
+}
+.height90 {
+	height: 90%;
+}
+.width80 {
+	width: 80%;
+}
+.width85 {
+	width: 85%;
+}
+.width15 {
+	width: 15%;
+}
+.height80 {
+	height: 80%;
+}
+.width50 {
+	width: 50%;
+}
+.height50 {
+	height: 50%;
+}
+.width25 {
+	width: 25%;
+}
+.height25 {
+	height: 25%;
+}
+.width20 {
+	width: 20%;
+}
+.height5 {
+	height: 5%;
+}
+.width60 {
+	width: 60%;
+}
+.width5 {
+	width: 10%;
+}
+div.field input, button, textarea {
+	background: rgba(0,0,0,0.1);
+	color: white;
+	border: solid 3px #469;
+}
+hr {
+	border-color: #358;
+	border-style: solid;
+	border-width: 2px;
+}
+textarea#upload, input#upload {
+	background: rgba(0,0,0,0.25);
+	border: none;
+	color: white;
+	font-family: "verdana","calibri","arial";
+	text-shadow: 1px 1px black;
+	border: solid 3px #469;
+}
+input[type="submit"]#upload {
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+textarea#upload:focus, input#upload:focus {
+	border: inset 3px grey;
+	outline: none;
+}
+textarea#upload:hover, input#upload:hover {
+	opacity: 0.75;
+}
+div[align="center"] a {
+	color: #aac;
+	font-weight: bold;
+	margin-right: 32px;
+}
+img[src="logo.png"] {
+	width:50%;
+}
+progress.main {
+	width: 100%;
+	height: 24px;
+}
+textarea {
+	height: 256px;
+}
+select {
+	background: rgba(50,50,120,0.75);
+	color: white;
+}
+div#tabs img {
+	width: 320px;
+}
