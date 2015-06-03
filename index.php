@@ -5,7 +5,7 @@ require_once "functions.php";
 $page = isset($_GET['page']) ? $_GET['page'] : "default";
 $pc = getPage($page);
 ?>
-<html lang="de">
+<html lang="en">
 <head>
 <link rel="stylesheet" type="text/css" href="design/style.css">
 <title><?php echo $website_title; ?></title>	
