@@ -1,4 +1,4 @@
-# DynmicPHPHTML
+# DynamicPHPHTML
 This is a dynamic webpage in php.
 
 ## How to use?
